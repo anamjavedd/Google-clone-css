@@ -1,0 +1,207 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+.nav{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    height: 48px;
+}
+
+
+.nav-end{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 170px;
+    
+}
+
+.nav-start{
+    
+    position: relative;
+    top: 15px;
+    left: 155px;
+  
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+}
+
+.about{
+    padding: 0 15px 0 15px;
+}
+
+.images{
+    padding: 0 15px 0 0;
+}
+
+.gmail{
+    padding: 0 15px 0 0;
+}
+
+.icon{
+    padding: 0 15px 0 0; 
+    position: relative;
+    bottom: 5px;
+    height: 2px;
+    
+}
+
+.sign-in{
+     background-color: #4285F4;
+     color: white;
+     height: 32px ;
+     width: 79px;
+     border-radius: 3px;
+     border: none;
+     position: relative;
+     bottom: 7px;
+     font-size: 14px;
+     padding: 2px 0;
+}
+
+.search{
+display: flex;
+justify-content: center;
+
+position: relative;
+top: 200px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-content: space-between ;
+    position: relative;
+    top: 230px;
+    
+}
+
+.button1{
+margin-right: 10px;
+border: none;
+background-color: #F2F2F2;
+color: #7B7E82;
+font-family: Arial, Helvetica, sans-serif;
+height: 40px;
+min-width: 150px;
+border-radius: 4px;
+font-size: 15px;
+}
+
+.button2{
+    border: none;
+    background-color: #F2F2F2;
+    color: #7B7E82;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    min-width: 150px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.footer{
+    position: relative;
+    top: 413px;
+    background-color: #F2F2F2;
+    /* height: 10px; */
+    width: 1520px;
+    
+}
+
+.footer-start{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-left: 173px;
+    position: relative;
+
+}
+
+.footer-end{
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 173px;
+}
+
+.advertising{
+    padding: 0 25px 0 0 ;
+    color: #6E7276;
+}
+
+.business{
+    padding: 0 25px 0 0 ;
+    color: #6E7276;
+}
+
+
+.privacy{
+    padding: 0 25px 0 0 ;
+    color: #6E7276;
+}
+
+.terms{
+    padding: 0 25px 0 0 ;
+    color: #6E7276;
+}
+
+.howsearch{
+    color: #6E7276;
+}
+
+.settings{
+    color: #6E7276;
+}
+
+.searchbar{
+    height: 30px;
+    width:500px;
+    border: none;
+}
+
+.search{
+    position: relative;
+    /* background-color: black; */
+    width: 650px;
+    height: 50px;
+    left: 440px;
+    border: 2px solid black;
+    border-color: #EBECEF;
+    border-radius: 25px;
+    
+}
+
+.search-image{
+    position: relative;
+    left: 548px;
+    top: 5px;
+    height: 35px;
+    width: 35px;
+}
+
+.google-image{
+    height: 100px;
+}
+
+.search-image2{
+    height: 32px;
+    width: 32px;
+    position: relative;
+    right: 5
+    px;
+    top:8px;
+
+    
+}
