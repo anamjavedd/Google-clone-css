@@ -81,10 +81,11 @@
   input {
     width: 580px;
     height: 45px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
     font-size: 1.2rem;
     border-radius: 45px;
     border: 1px solid #d3d3d3;
+    
   }
   
   input:hover {
@@ -166,6 +167,33 @@
   }
   
 
-  .extreme-right {
+  .extreme-right {  
     justify-content: flex-end;
   }
+
+  @media only screen and (max-width:768px) {
+
+   input{
+    width: 92vw;
+   }
+
+   .mic {
+    position: absolute;
+    top: 12px;
+    left: 390px;
+  }
+
+  .lens{
+    position: absolute;
+    top: 12px;
+    left: 420px;
+  }
+
+  .last-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+   }
+  
