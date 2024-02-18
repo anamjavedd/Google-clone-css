@@ -91,11 +91,15 @@ main {
 }
 
 .search input {
-  width: 90%;
+  width: 80%;
   height: 100%;
   border: none;
   background-color: transparent;
   font-size: 15px;
+}
+
+.search input:focus{
+  outline: none;
 }
 
 .search img {
@@ -185,18 +189,35 @@ padding: 0 20px 0 0;
   text-decoration: underline;
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
 
   .footer-menu{
        display: flex;
        flex-wrap: wrap;
        justify-content: center;
        white-space: nowrap;
+       padding: 5px 0px 5px 40px;
+       
      }
 
-   .search-button{
-        flex-wrap: nowrap;
+   .search-icon{
+    max-width: 100%;
+    height: auto;
    }
+
+   .search-button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .search-button button {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+
      
 }
 
@@ -212,5 +233,13 @@ padding: 0 20px 0 0;
   .search-button{
       flex-wrap: nowrap;
  }
+
+ .search-icon{
+  max-width: 100%;
+  height: auto;
+ } 
+
+ 
      
 }
+
