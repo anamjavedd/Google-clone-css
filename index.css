@@ -96,7 +96,14 @@ main {
   border: none;
   background-color: transparent;
   font-size: 15px;
+  margin-left: 10px;
 }
+
+input:focus{
+  outline: none;
+  border: none;
+}
+
 
 .search img {
   width: 30px;
